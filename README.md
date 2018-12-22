@@ -60,7 +60,7 @@ bot to quickly be banned as that is against the Discord Terms of Service.
 #### 10. Make usage clear to a new user.
 Allow users to mention the bot as an alternative to using prefixes ("@MyBot help").
 This will help users who are new to your bot get started. Make sure that, however,
-how to ask for help can easily be found. One of the best ways to do this is using
+places to ask for help can easily be found. One of the best ways to do this is using
 a bot's presence. Mentioning is truly the most unique prefix of all.
 
 #### 11. Escape mentions.
