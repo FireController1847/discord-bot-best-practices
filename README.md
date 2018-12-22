@@ -48,6 +48,13 @@ started. (Make sure that whatever the message is, it's easily found. A great way
 this is by including it in your bot's presence.) The alternative is brute-forcing punctuation
 characters to find it, which will be difficult for bots following 2 and 3. Plus, a mention
 is the most unique prefix of all.
+11. **Escape mentions**. Whenever you print back anything coming from a user,
+make sure you escape mentions (especially `@everyone` and `@here`).
+While the user may not have permission to use `@everyone`, your bot may has,
+resulting in a possible "mention injection".
+**Note:** Some libraries automatically do this for you *by default*,
+but with others you'll be required to enable this feature or implement it yourself,
+e.g. by inserting a zero-width space (`\u200B`) after each `@`.
 
 If you have an idea for an addition or change to this document, please make a
 pull request and we can discuss it.
