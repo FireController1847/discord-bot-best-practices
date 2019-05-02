@@ -14,7 +14,7 @@ use a command prefix and/or respond when the bot is directly mentioned.
 Single-character prefixes, such as `!`, `$`, and `.`, are commonplace for activating
 commands and can overlap with other bots. Should you opt to use a prefix for your bot,
 consider using words (`owl`) or use unique Unicode characters (`"`). Avoid using `#`,
-`@`, or `:` as prefixes since they are used for Discord-specific actions like mentioning
+`@`, `:`, or `/` as prefixes since they are used for Discord-specific actions like mentioning
 a user. Ideally, a bot's prefix should be configurable on a guild-by-guild basis so that
 a guild owner can ensure every bot has its own unique prefix.
 
