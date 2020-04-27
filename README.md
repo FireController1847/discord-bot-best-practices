@@ -71,5 +71,4 @@ Whenever a bot responds to anything, ensure that it escapes mentions
 `@everyone`, your bot might, which can result in "mention injection."
 
 * **Note:** Some libraries do this automatically for you by default, but others will
-require you to enable it or implement it by yourself. You can do this by inserting
-a zero-width space (`\u200B`) after each `@`.
+require you to set mentions to (not) parse. See the [Allowed Mentions](https://discordapp.com/developers/docs/resources/channel#allowed-mentions-object) section of Discord.
